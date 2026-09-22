@@ -1,0 +1,53 @@
+@keyframes float{
+    0%, 100%{
+        transform:translateY(30px);
+    }
+    50%{
+        transform: translateY(-5px);
+    }
+}
+.floating-img{
+    animation: float 3s ease-in-out infinite;
+}
+/* .body{
+    padding: 60px 20px;
+} */
+.skill{margin-bottom: 28px;}
+.skill .skill-label{
+    font-weight: 600;
+}
+.progress{
+    height:8px;
+    border-radius: 20px;
+    background-color: #047cf4;
+}
+.progress-bar{
+    border-radius: 20px;
+    background-color: #0758f9;
+    width: 0%;
+    transition: width 1.4s ease-in-out;
+}
+.form{
+    width: 370px;
+    height: 35px;
+    /* display: block; */
+    margin-bottom: 20px;
+}
+
+.textarea{
+    width: 370px;
+    height: 200px;
+    display: block;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    background-color: #212529;
+}
+.footer{
+    background-color:#1a1d20;
+}
