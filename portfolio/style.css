@@ -28,16 +28,16 @@
     transition: width 1.4s ease-in-out;
 }
 .form{
-    width: 360px;
+    width: 100%;
+    max-width: 350px;
     height: 35px;
-    /* display: block; */
     margin-bottom: 20px;
 }
 
 .textarea{
-    width: 360px;
+    width: 100%;
+    max-width: 350px;
     height: 200px;
-    display: block;
 }
 *{
     margin: 0;
