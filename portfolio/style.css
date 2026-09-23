@@ -19,23 +19,23 @@
 .progress{
     height:8px;
     border-radius: 20px;
-    background-color: #047cf4;
+    background-color: white;
 }
 .progress-bar{
     border-radius: 20px;
-    background-color: #0758f9;
+    background-color: #0303e9;
     width: 0%;
     transition: width 1.4s ease-in-out;
 }
 .form{
-    width: 370px;
+    width: 360px;
     height: 35px;
     /* display: block; */
     margin-bottom: 20px;
 }
 
 .textarea{
-    width: 370px;
+    width: 360px;
     height: 200px;
     display: block;
 }
